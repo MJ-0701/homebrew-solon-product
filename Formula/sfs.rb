@@ -1,8 +1,8 @@
 class Sfs < Formula
   desc "Solon Product SFS runtime for AI-native product work"
   homepage "https://github.com/MJ-0701/solon-product"
-  url "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.5.34-product.tar.gz"
-  sha256 "617bfe634ce6eb9e65188ada52212b4a8018e2760555b0b739083e71002ab6d8"
+  url "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.5.35-product.tar.gz"
+  sha256 "947ddb051b147a56068e8aabe3b03d80745913b2a36198b9a6cce5006b2d331d"
 
   def install
     libexec.install Dir["*"]
