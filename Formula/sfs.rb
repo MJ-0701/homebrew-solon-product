@@ -1,8 +1,8 @@
 class Sfs < Formula
   desc "Solon Product SFS runtime for AI-native product work"
   homepage "https://github.com/MJ-0701/solon-product"
-  url "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.5.35-product.tar.gz"
-  sha256 "947ddb051b147a56068e8aabe3b03d80745913b2a36198b9a6cce5006b2d331d"
+  url "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.5.36-product.tar.gz"
+  sha256 "b59e2dfa278bcc4ced0f5c2805152f157ae40f4960b862351602953f4a767542"
 
   def install
     libexec.install Dir["*"]
@@ -24,7 +24,8 @@ class Sfs < Formula
 
       Homebrew installs the global sfs CLI. Run `sfs init --yes` once inside
       each project where you want Solon files, state, and agent adapters.
-      Use `sfs update` later after `brew upgrade`.
+      Later, run `sfs update` inside a project; it self-upgrades the Homebrew
+      runtime first, then updates that project's Solon files.
     EOS
   end
 
