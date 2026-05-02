@@ -1,8 +1,8 @@
 class Sfs < Formula
   desc "Solon Product SFS runtime for AI-native product work"
   homepage "https://github.com/MJ-0701/solon-product"
-  url "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.5.62-product.tar.gz"
-  sha256 "afa1697ce13d1a4ab20452fb42b432802c1250321c667f5125a14a6522b76cb0"
+  url "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.5.63-product.tar.gz"
+  sha256 "18476ceb6d34d10b7bd57213486ed5cc9dfcae98403105724c2758b0e89a344c"
 
   def install
     libexec.install Dir["*"]
@@ -26,6 +26,9 @@ class Sfs < Formula
       each project where you want Solon files, state, and agent adapters.
       Later, run `sfs upgrade` inside a project; it self-upgrades the Homebrew
       runtime first, then updates that project's Solon files.
+
+      Beginner guide:
+        https://github.com/MJ-0701/solon-product/blob/main/BEGINNER-GUIDE.md
     EOS
   end
 
