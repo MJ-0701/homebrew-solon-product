@@ -11,8 +11,8 @@ class Sfs < Formula
   # tag-push → audit → tap-update). 0.6.5 hotfix: formula structure corrected
   # and livecheck regex broadened (\.t matches both \.tar\.gz and \.tgz
   # mirrors) to satisfy `brew style`.
-  url "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.6.30.tar.gz"
-  sha256 "b47873e6435dba4600ec08d3725b2ba84b0785a17528151d49e3cd9621a9ec67"
+  url "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.6.31.tar.gz"
+  sha256 "d1afa681df9c6142494110ce27c4af6c1bd66af293475e3d6fe0b367defadde3"
 
   livecheck do
     url :stable
