@@ -6,19 +6,9 @@ class Sfs < Formula
   desc "Solon Product SFS runtime for AI-native product work"
   homepage "https://github.com/MJ-0701/solon-product"
 
-  # AC7.4 — release artifact. version + sha256 placeholders are materialized by
-  # scripts/cut-release.sh at release-cut time (see AC11 release sequence:
-  # tag-push → audit → tap-update). 0.6.5 hotfix: formula structure corrected
-  # and livecheck regex broadened (\.t matches both \.tar\.gz and \.tgz
-  # mirrors) to satisfy `brew style`.
-  url "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.7.10.tar.gz"
-  sha256 "b6cc3f562934fe879e5e3158ed96dd0ff99cf9c3365659df06e442b8820d71be"
-
-  livecheck do
-    url :stable
-    regex(/v([\d.]+)\.t/i)
-    strategy :github_latest
-  end
+  # Replace VERSION and SHA256 when cutting a public release tarball.
+  url "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.7.11.tar.gz"
+  sha256 "56af9adafc04ac9850868bb7370710c0acd14e84760f92b3c3e919dd31d78661"
 
   def install
     libexec.install Dir["*"]
@@ -44,10 +34,6 @@ class Sfs < Formula
       command/skill adapters are optional: `sfs agent install all`.
       Later, run `sfs upgrade` inside a project; it self-upgrades the Homebrew
       runtime first, then updates that project's Solon files.
-
-      Legacy 0.5.x storage migration:
-        sfs upgrade --opt-in 0.6-storage   # migrate 0.5.x sprints to 0.6 schema
-      Hard cut: 2026-11-03 (after that, `sfs upgrade` migrates 0.5.x by default).
 
       Beginner guide:
         https://github.com/MJ-0701/solon-product/blob/main/BEGINNER-GUIDE.md
