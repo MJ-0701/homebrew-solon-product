@@ -12,7 +12,7 @@ class Sfs < Formula
   # and livecheck regex broadened (\.t matches both \.tar\.gz and \.tgz
   # mirrors) to satisfy `brew style`.
   url "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.6.141.tar.gz"
-  sha256 "72f731b8ae6b80acef4e4f465da274eb88a447aa6ddbdf5ebb876424f8d308e3"
+  sha256 "b6cc3f562934fe879e5e3158ed96dd0ff99cf9c3365659df06e442b8820d71be"
 
   livecheck do
     url :stable
