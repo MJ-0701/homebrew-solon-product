@@ -6,7 +6,7 @@ class Sfs < Formula
   desc "Solon Product SFS runtime for AI-native product work"
   homepage "https://github.com/MJ-0701/solon-product"
 
-  # Replace VERSION and be55e03466f744a71dd6fd0392b6fb6f33c6fb7bd5cbafb44454a888a463cab6 when cutting a public release tarball.
+  # Replace VERSION and SHA256 when cutting a public release tarball.
   url "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.8.27.tar.gz"
   sha256 "be55e03466f744a71dd6fd0392b6fb6f33c6fb7bd5cbafb44454a888a463cab6"
 
