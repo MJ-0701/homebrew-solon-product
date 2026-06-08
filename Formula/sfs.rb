@@ -7,8 +7,8 @@ class Sfs < Formula
   homepage "https://github.com/MJ-0701/solon-product"
 
   # Replace VERSION and SHA256 when cutting a public release tarball.
-  url "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.8.30.tar.gz"
-  sha256 "1b6544b41be6c64c6b1debf3d0b08ae7983eb2823de9671b19aa0997936454dd"
+  url "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.8.31.tar.gz"
+  sha256 "97cb51c75132cd1aee17622269ed49ed0e19292a3eb8f938616bb1f48cd7ec4d"
 
   def install
     libexec.install Dir["*"]
