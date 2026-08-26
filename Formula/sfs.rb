@@ -6,9 +6,9 @@ class Sfs < Formula
   desc "Solon Product SFS runtime for AI-native product work"
   homepage "https://github.com/MJ-0701/solon-product"
 
-  # Replace VERSION and SHA256 when cutting a public release tarball.
-  url "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.15.1.tar.gz"
-  sha256 "907695be6b62d6e8323645757774a4b92444dc77e40bd17dc4751f33b815df07"
+  # Release source archive metadata is materialized at release cut.
+  url "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.15.2.tar.gz"
+  sha256 "7dd52c5786fc582b7270d402ba6de8d73ca271c51d36a2205c238bd7b85fdc27"
 
   def install
     libexec.install Dir["*"]
