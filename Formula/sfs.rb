@@ -7,8 +7,8 @@ class Sfs < Formula
   homepage "https://github.com/MJ-0701/solon-product"
 
   # Release source archive metadata is materialized at release cut.
-  url "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.16.2.tar.gz"
-  sha256 "0633aa8330de495249273c327489b8c3403f3a9b703e80f2bfb3474c37f0d893"
+  url "https://github.com/MJ-0701/solon-product/archive/refs/tags/v0.16.3.tar.gz"
+  sha256 "7f85e96e82008ed46d22f699f088f6c3632d735d5969542f7a7a1ab4d84c940a"
 
   def install
     libexec.install Dir["*"]
